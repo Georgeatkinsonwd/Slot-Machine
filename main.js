@@ -5,6 +5,7 @@ document.querySelector('#reset').addEventListener('click',reset)
 let yourCoins = Number(localStorage.getItem('coins'))
 let yourBet = 0
 document.querySelector('#showCoins').innerHTML = yourCoins
+document.querySelector('#betCount').innerHTML = yourBet
 
 if (!localStorage.getItem('coins')){
     localStorage.setItem('coins',500)
@@ -23,6 +24,7 @@ function bet5 () {
     coins = coins - 5
     localStorage.setItem('coins',coins)
     document.querySelector('#showCoins').innerHTML = yourCoins
+    document.querySelector('#betCount').innerHTML = yourBet
 }
 
 function bet15 () {
@@ -32,6 +34,7 @@ function bet15 () {
     coins = coins - 15
     localStorage.setItem('coins',coins)
     document.querySelector('#showCoins').innerHTML = yourCoins
+    document.querySelector('#betCount').innerHTML = yourBet
 }
    
 function spinWheel(){
@@ -52,6 +55,7 @@ function spinWheel(){
     }
 
     yourBet = 0
+    document.querySelector('#betCount').innerHTML = yourBet
 }
 
     function wheelOne() {
