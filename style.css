@@ -1,0 +1,36 @@
+* {
+    box-sizing:border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#spin {
+    display:flex;
+    justify-content: center;
+}
+
+
+#machine {
+    display:flex;
+    margin:0 auto;
+    width:30%;
+    height:300px;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+#slotOne {
+    padding-left:20px;
+}
+
+#slotThree {
+    padding-right:20px;
+}
+
+.slot {
+    text-align:center;
+    padding:5,20,5,20;
+}
