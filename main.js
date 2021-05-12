@@ -15,6 +15,7 @@ function reset () {
     localStorage.coins = 500
     yourBet = 0
     document.querySelector('#showCoins').innerHTML = Number(localStorage.getItem('coins'))
+    document.querySelector('#betCount').innerHTML = yourBet
 }
 
 function bet5 () {
