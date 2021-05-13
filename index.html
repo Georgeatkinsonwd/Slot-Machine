@@ -10,18 +10,28 @@
 <body>
     <h1>Slot Machine</h1>
          <div id="spin">
-             <h2 id="showCoins"></h2>
-        <button id="spinButton">Spin</button>
-        <button id="bet5">Bet 5</button>
-        <button id="bet15">Bet 15</button>
-        <button id="reset">Reset</button>
-        <h2 id="betCount"></h2>
+             <div class="info">
+             <h2>Coins</h2>
+             <p id="showCoins"></p>
+             </div>
+        <button class="buttons" id="spinButton">Spin</button>
+        <button class="buttons" id="bet5">Bet 5</button>
+        <button class="buttons" id="bet15">Bet 15</button>
+        
+        <div class="info">
+        <h2>Bet</h2>
+        <p id="betCount"></p>
+        </div>
+        </div>
+
+        <div id="reset">
+        <button>Reset</button>
         </div>
 
         <div id="machine">
-        <h3 class="slot" id="slotOne"></h3>
-        <h3 class="slot" id="slotTwo"></h3>
-        <h3 class="slot" id="slotThree"></h3>
+        <img id="slotOne" class="slot" src="">
+        <img id="slotTwo" class="slot" src="">
+        <img id="slotThree" class="slot" src="">
         </div>
     
     <script src="main.js"></script>
