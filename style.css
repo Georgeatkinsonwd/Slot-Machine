@@ -23,14 +23,15 @@ body {
 
 #spin {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
 }
 
 #reset {
- display:flex;
- justify-content:center;
+    display:flex;
+    justify-content:center;
 }
+
 
 #machine {
     display:flex;
@@ -51,13 +52,26 @@ body {
 }
 
 .info {
-   padding-right: 50px;
-   padding-left:50px;
+   padding-right: 200px;
+   padding-left:200px;
+   
 }
 
 .buttons {
     height:40px;
     width:55px;
+}
+
+#spinButton {
+    height: 60px;
+    width: 70px;
+    margin-right:150px;
+    background-color:gold;
+}
+
+#buttonStack {
+    width:100%;
+    display:flex;
     justify-content: center;
-    align-items:center;
+
 }
